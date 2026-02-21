@@ -4,6 +4,7 @@
 import { Instagram, Facebook, Twitter, Download, ShieldCheck, FileText, QrCode, } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { ModalTerms } from "./ModalTerms";
 
 export function Footer() {
   return (
@@ -44,19 +45,26 @@ export function Footer() {
             </h4>
             <ul className="space-y-3 text-gray-300">
               <li>
-                <Link href="/suporte" className="hover:text-[#F0BA2B] transition-colors flex items-center gap-2">
+            <button
+              onClick={() => {
+                document.getElementById('#suport')?.scrollIntoView({ behavior: 'smooth' })
+              }} className="hover:text-[#F0BA2B] transition-colors flex items-center gap-2 hover:cursor-pointer hover:scale-105 ">
                   <FileText className="w-5 h-5" /> Suporte
-                </Link>
+            </button>
               </li>
               <li>
-                <Link href="/privacidade" className="hover:text-[#F0BA2B] transition-colors flex items-center gap-2">
+              <ModalTerms>
+                <button  className="hover:text-[#F0BA2B] transition-colors flex items-center gap-2 hover:cursor-pointer hover:scale-105">
                   <ShieldCheck className="w-5 h-5" /> Política de Privacidade
-                </Link>
+                </button>
+              </ModalTerms>
               </li>
               <li>
-                <Link href="/termos" className="hover:text-[#F0BA2B] transition-colors flex items-center gap-2">
-                  <FileText className="w-5 h-5" /> Termos de Uso
-                </Link>
+                <ModalTerms>
+                <button  className="hover:text-[#F0BA2B] transition-colors flex items-center gap-2 hover:cursor-pointer hover:scale-105">
+                  <ShieldCheck className="w-5 h-5" /> Política de Privacidade
+                </button>
+              </ModalTerms>
               </li>
             </ul>
           </div>
