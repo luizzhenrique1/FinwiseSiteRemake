@@ -37,7 +37,9 @@ export function Header({ onNavClick }: HeaderProps) {
       <div className="mx-auto max-w-7xl px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2 hover:cursor-pointer hover:scale-105">
+          <div className="flex items-center gap-2 hover:cursor-pointer hover:scale-105" onClick={() => {
+                scrollTo('#hero')
+              }}>
             <Image src="/assets/logo.png" alt="FinWise" width={40} height={40} className="rounded-full" />
             <div className="flex flex-col leading-none">
               <span className="text-[#F0BA2B] text-sm font-bold">FIN</span>
