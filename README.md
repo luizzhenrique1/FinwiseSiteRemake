@@ -1,10 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+💰 Finwise
 
-## Getting Started
+Finwise é uma aplicação web de gestão financeira pessoal desenvolvida com Next.js.
+O projeto tem como objetivo ajudar usuários a organizarem suas receitas e despesas de forma simples, intuitiva e eficiente.
 
-First, run the development server:
+Getting Started
 
-```bash
+First, install the dependencies:
+
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+
+Then, run the development server:
+
 npm run dev
 # or
 yarn dev
@@ -12,26 +24,54 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
+ with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the main page by modifying:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+app/page.tsx
 
-## Learn More
+The page auto-updates as you edit the file.
+
+Features
+
+Financial transaction management (income and expenses)
+
+Organized and clean UI
+
+Responsive layout
+
+Structured project architecture for scalability
+
+Tech Stack
+
+This project was built using:
+
+Next.js
+
+React
+
+TypeScript
+
+CSS / Tailwind CSS (if applicable)
+
+Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://nextjs.org/docs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+https://nextjs.org/learn
 
-## Deploy on Vercel
+You can also check out the Next.js GitHub repository:
+https://github.com/vercel/next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy on Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# FinwiseSiteRemake
+The easiest way to deploy this project is using the Vercel Platform:
+
+https://vercel.com/
+
+For more details, check the official deployment documentation:
+https://nextjs.org/docs/app/building-your-application/deploying
