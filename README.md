@@ -1,77 +1,50 @@
-💰 Finwise
+# 💰 Finwise - Gestão Financeira Pessoal
 
-Finwise é uma aplicação web de gestão financeira pessoal desenvolvida com Next.js.
-O projeto tem como objetivo ajudar usuários a organizarem suas receitas e despesas de forma simples, intuitiva e eficiente.
+Finwise é uma aplicação web de **gestão financeira pessoal** desenvolvida com Next.js.  
+O objetivo é ajudar os usuários a organizarem suas **receitas** e **despesas** de forma simples, intuitiva e eficiente.
 
-Getting Started
+<p align="center">
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/luizzhenrique1s-projects/finwise-site-remake">
+    <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
+  </a>
+</p>
 
-First, install the dependencies:
+## ✨ Funcionalidades
 
+- Cadastro e gerenciamento de transações financeiras (receitas e despesas)
+- Interface organizada e limpa
+- Layout 100% responsivo (mobile-first)
+- Arquitetura de projeto estruturada e preparada para escalabilidade
+- Suporte a TypeScript
+
+## 🚀 Tecnologias
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+(Outras dependências comuns: zod, date-fns, react-hook-form, etc — confira package.json)
+
+## 📋 Começando
+
+### Pré-requisitos
+
+- Node.js 18+ ou superior
+- npm, yarn, pnpm ou bun
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/SEU_USUARIO/finwise.git
+cd finwise
+
+# Instale as dependências
 npm install
-# or
+# ou
 yarn install
-# or
+# ou
 pnpm install
-# or
+# ou
 bun install
-
-Then, run the development server:
-
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-
-Open http://localhost:3000
- with your browser to see the result.
-
-You can start editing the main page by modifying:
-
-app/page.tsx
-
-The page auto-updates as you edit the file.
-
-Features
-
-Financial transaction management (income and expenses)
-
-Organized and clean UI
-
-Responsive layout
-
-Structured project architecture for scalability
-
-Tech Stack
-
-This project was built using:
-
-Next.js
-
-React
-
-TypeScript
-
-CSS / Tailwind CSS (if applicable)
-
-Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-https://nextjs.org/docs
-
-https://nextjs.org/learn
-
-You can also check out the Next.js GitHub repository:
-https://github.com/vercel/next.js
-
-Deploy on Vercel
-
-The easiest way to deploy this project is using the Vercel Platform:
-
-https://vercel.com/
-
-For more details, check the official deployment documentation:
-https://nextjs.org/docs/app/building-your-application/deploying
