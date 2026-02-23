@@ -1,6 +1,4 @@
-Aqui está **exatamente** no formato que você mostrou, tudo em um único bloco Markdown limpo, sem quebras extras indesejadas, sem <p align="center">, sem botões renderizados como imagens separadas, sem espaços duplos desnecessários entre seções:
 
-```markdown
 # 💰 Finwise - Gestão Financeira Pessoal
 
 Finwise é uma aplicação web moderna para **controle de finanças pessoais**, criada com Next.js. Ajude-se a organizar **receitas**, **despesas**, categorias e relatórios de forma simples, bonita e eficiente.
