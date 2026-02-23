@@ -44,13 +44,10 @@ Abra http://localhost:3000 no navegador.
 
 **Dica:** edite `app/page.tsx` (ou a página principal do dashboard) e veja a atualização automática.
 
-## 🌐 Demo / Deploy rápido
+## 🌐 Deploy
 
-https://finwise.vercel.app  
-(substitua pelo link real após o deploy)
+https://finwise-site-remake.vercel.app/
 
-Deploy automático na Vercel:  
-https://vercel.com/new/clone?repository-url=https://github.com/SEU_USUARIO/finwise
 
 ## 📂 Estrutura principal do projeto
 
@@ -75,7 +72,3 @@ Feito com ❤️ para ajudar na organização financeira pessoal
 Dúvidas, sugestões ou bugs? Abra uma **issue**!
 ```
 
-É só copiar todo o conteúdo acima e colar direto no seu README.md.  
-Está na formatação mais próxima possível do exemplo que você enviou.
-
-Se quiser remover ou adicionar alguma parte (demo, estrutura de pastas, licença etc), é só editar. Boa sorte com o projeto!
